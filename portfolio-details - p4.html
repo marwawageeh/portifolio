@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Marwa Wageeh</title>
+  <meta name="description" content="Details and features of my portfolio projects.">
+  <meta name="keywords" content="portfolio, projects, web development, asp.net core, mvc, c#">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@400;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="index.html#about"><i class="bi bi-person navicon"></i>About</a></li>
+          <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a></li>
+          <li><a href="index.html#portfolio" class="active"><i class="bi bi-images navicon"></i>Portfolio</a></li>
+          <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i>Services</a></li>
+          <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://www.facebook.com/fawzia.faraag.9/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/marwawageeh"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/marwa-wageeh-6885ab309/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Inventory Management System</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <!-- Images Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 4000 },
+                  "slidesPerView": "auto",
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/8.jpg" alt="Inventory Management System Screenshot" class="img-fluid" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Project Info -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Full Stack MVC</li>
+                <li><strong>Tools</strong>: C#, ASP.NET Core MVC, SQL Server</li>
+                <li><strong>Project date</strong>: May 2024</li>
+                <li><strong>GitHub</strong>: <a href="https://github.com/marwawageeh/Inventory_System" target="_blank">View Repository</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="col-lg-12">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Project Overview</h2>
+              <p>
+                A full-featured Inventory Management System developed during my third year at university.  
+                This project was built to manage and monitor stock-related operations in a structured, efficient, and scalable way.  
+                It covers everything from sales and purchases to supplier and customer management.
+              </p>
+
+              <div class="features mt-4">
+                <h3>Key Features</h3>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-bar-chart-fill"></i>
+                      <h4>Sales and Purchase Modules</h4>
+                      <p>Track all stock movement and transactions.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+                      <i class="bi bi-people-fill"></i>
+                      <h4>Supplier and Customer Management</h4>
+                      <p>Add, edit, and view supplier and customer contact details.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
+                      <i class="bi bi-box-seam"></i>
+                      <h4>Product Inventory</h4>
+                      <p>CRUD operations with real-time stock updates.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
+                      <i class="bi bi-database-fill"></i>
+                      <h4>Database-Driven</h4>
+                      <p>Designed for scalability and data integrity.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="800">
+                      <i class="bi bi-arrow-repeat"></i>
+                      <h4>Full CRUD Operations</h4>
+                      <p>Available across all major modules for easy management.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1">Marwa Wageeh</strong> </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
